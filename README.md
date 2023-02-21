@@ -4,8 +4,8 @@
 1. 請確保你已經擁有 Root 權限 在 Terminal - 如果沒有，請輸入 "sudo su" 並輸入 Root 密碼。
 2. 系統為 Ubuntu，版本為 16.04 以上。
 ### 安裝步驟
-1. ```apt install shadowsocks``` - 安裝Shadowsocks，按 Y 以繼續
-2. (可選) ```systemctl status shadowsocks``` 以查看現在是否運行 Shadowsocks 服務，如果顯示為 "Active" (綠色字)，表示已經運行，如下。
+#### 1. ```apt install shadowsocks``` - 安裝Shadowsocks，按 Y 以繼續
+#### 2. (可選) ```systemctl status shadowsocks``` 以查看現在是否運行 Shadowsocks 服務，如果顯示為 "Active" (綠色字)，表示已經運行，如下。
 ```
 ● shadowsocks.service - LSB: Fast tunnel proxy that helps you bypass firewalls
    Loaded: loaded (/etc/init.d/shadowsocks; bad; vendor preset: enabled)
@@ -19,7 +19,7 @@
    CGroup: /system.slice/shadowsocks.service
            └─2946 /usr/bin/python /usr/bin/ssserver -q -c /etc/shadowsocks/config.json
 ```
-3. ```vi /etc/shadowsocks/config.json``` 修改配置文件，
+#### 3. ```vi /etc/shadowsocks/config.json``` 修改配置文件，
 #### 默認配置文件如下
 ```
 {
@@ -46,5 +46,5 @@
     "fast_open": false
 }
 ```
-4. 輸入 ```:wq``` 以保存並退出。
-#### 重要！！！ 5. 輸入 ```"systemctl restart shadowsocks"``` 以重啟 Shadowsocks。
+#### 4. 輸入 ```:wq``` 以保存並退出。
+#### 重要！！！ 5. 輸入 ```systemctl restart shadowsocks``` 以重啟 Shadowsocks。
