@@ -14,7 +14,7 @@
   Process: X ExecStop=/etc/init.d/shadowsocks stop (code=exited, status=0/SUCCESS)
   Process: X ExecStart=/etc/init.d/shadowsocks start (code=exited, status=0/SUCCESS)
     Tasks: 1
-   Memory: X
+ Memory: X
       CPU: X
    CGroup: /system.slice/shadowsocks.service
            └─2946 /usr/bin/python /usr/bin/ssserver -q -c /etc/shadowsocks/config.json
