@@ -46,5 +46,5 @@
     "fast_open": false
 }
 ```
-4. 輸入 ```":wq"``` 以保存並退出。
+4. 輸入 ```:wq``` 以保存並退出。
 #### 重要！！！ 5. 輸入 ```"systemctl restart shadowsocks"``` 以重啟 Shadowsocks。
