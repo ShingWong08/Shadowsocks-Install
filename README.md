@@ -5,11 +5,11 @@
 2. 系統為 Ubuntu，版本為 16.04 以上。
 ### 安裝步驟
 1. apt install shadowsocks - 安裝Shadowsocks，按 Y 以繼續
-2. (可選) systemctl status shadowsocks 以查看現在是否運行 Shadowsocks 服務，如果顯示為 "Active" (綠色字)，表示已經運行。
+2. (可選) systemctl status shadowsocks 以查看現在是否運行 Shadowsocks 服務，如果顯示為 "Active" (綠色字)，表示已經運行，如下。
 ```
 ● shadowsocks.service - LSB: Fast tunnel proxy that helps you bypass firewalls
    Loaded: loaded (/etc/init.d/shadowsocks; bad; vendor preset: enabled)
-   ### Active: active (running) since XXXXXXXXXXXXXXXXX
+   Active: active (running) since XXXXXXXXXXXXXXXXX                                                          // 這裏寫著 active 便可
      Docs: man:systemd-sysv-generator(8)
   Process: X ExecStop=/etc/init.d/shadowsocks stop (code=exited, status=0/SUCCESS)
   Process: X ExecStart=/etc/init.d/shadowsocks start (code=exited, status=0/SUCCESS)
