@@ -4,7 +4,7 @@
 1. 請確保你已經擁有 Root 權限 在 Terminal - 如果沒有，請輸入 "sudo su" 並輸入 Root 密碼。
 2. 系統為 Ubuntu，版本為 16.04 以上。
 ### 安裝步驟
-1. apt install shadowsocks - 安裝Shadowsocks，按 Y 以繼續
+1. ```apt install shadowsocks``` - 安裝Shadowsocks，按 Y 以繼續
 2. (可選) systemctl status shadowsocks 以查看現在是否運行 Shadowsocks 服務，如果顯示為 "Active" (綠色字)，表示已經運行，如下。
 ```
 ● shadowsocks.service - LSB: Fast tunnel proxy that helps you bypass firewalls
