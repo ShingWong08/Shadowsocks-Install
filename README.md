@@ -9,13 +9,13 @@
 ```
 ● shadowsocks.service - LSB: Fast tunnel proxy that helps you bypass firewalls
    Loaded: loaded (/etc/init.d/shadowsocks; bad; vendor preset: enabled)
-   Active: active (running) since Tue 2023-02-21 22:35:38 HKT; 19min ago
+   ### Active: active (running) since XXXXXXXXXXXXXXXXX
      Docs: man:systemd-sysv-generator(8)
-  Process: 2923 ExecStop=/etc/init.d/shadowsocks stop (code=exited, status=0/SUCCESS)
-  Process: 2937 ExecStart=/etc/init.d/shadowsocks start (code=exited, status=0/SUCCESS)
+  Process: X ExecStop=/etc/init.d/shadowsocks stop (code=exited, status=0/SUCCESS)
+  Process: X ExecStart=/etc/init.d/shadowsocks start (code=exited, status=0/SUCCESS)
     Tasks: 1
-   Memory: 12.2M
-      CPU: 1.118s
+   Memory: X
+      CPU: X
    CGroup: /system.slice/shadowsocks.service
            └─2946 /usr/bin/python /usr/bin/ssserver -q -c /etc/shadowsocks/config.json
 ```
